@@ -187,7 +187,8 @@ fig.update_layout(
     margin=dict(l=20, r=20, t=40, b=20),
 )
 
-st.plotly_chart(fig, use_container_width=True)
+# Updated width parameter for Streamlit compatibility
+st.plotly_chart(fig, width="stretch")
 
 st.markdown("---")
 
