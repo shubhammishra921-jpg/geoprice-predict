@@ -4,3 +4,4 @@ yfinance
 plotly
 numpy
 xgboost
+scikit-learn
